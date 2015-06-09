@@ -1,0 +1,98 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="24dp"
+        android:layout_marginTop="16dp"
+        android:text="My Nanodegree Apps!"
+        android:textColor="#616161"
+        android:textSize="30sp" />
+
+
+    <Button
+        android:id="@+id/bullet_spotify"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="24dp"
+        android:onClick="toastStreamer"
+        android:paddingBottom="24dp"
+        android:paddingTop="24dp"
+        android:text="Spotify Streamer"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/bullet_scores"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="24dp"
+        android:onClick="toastScores"
+        android:paddingBottom="24dp"
+        android:paddingTop="24dp"
+        android:text="Scores App"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/bullet_library"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="24dp"
+        android:onClick="toastLibrary"
+        android:paddingBottom="24dp"
+        android:paddingTop="24dp"
+        android:text="Library App"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/bullet_build"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="24dp"
+        android:onClick="toastBuild"
+        android:paddingBottom="24dp"
+        android:paddingTop="24dp"
+        android:text="Build it Bigger"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/bullet_reader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="24dp"
+        android:onClick="toastReader"
+        android:paddingBottom="24dp"
+        android:paddingTop="24dp"
+        android:text="XYZ Reader"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/bullet_capstone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="24dp"
+        android:onClick="toastCapstone"
+        android:paddingBottom="24dp"
+        android:paddingTop="24dp"
+        android:text="CAPSTONE: MY OWN APP"
+        android:textSize="18sp"
+        android:background="#ffff1219" />
+
+</LinearLayout>
